@@ -1,0 +1,113 @@
+body {
+	padding-top: 50px;
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1, h2 {
+  font-style: bold;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 50px;
+  font-style: bold;
+}
+
+h2 {
+  font-size: 40px;
+  font-style: bold;
+}
+
+#img-p {
+  display: inline;
+}
+
+.navbar-inverse {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/header.jpg) no-repeat center center; 
+  background-size: cover;
+  color:  white;
+	font-size: 18px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.social a{
+  color: white;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: black;
+  font-size: 24px;
+  font-weight: bold;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  margin-right: 10px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+
+.social a:hover{
+  background-color: #8B8989; 
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#tech .thumbnail {
+  border: 0 none;
+  box-shadow: none;
+}
+
+#tech .thumbnail img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+#portfolio {
+  background: url(../images/webservices.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+#portfolio .thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+#contact {
+  color: white;
+  background-color: #202020;
+  background-image: url('../images/map-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#contact span {
+  font-size: 25px;
+}
+
+.divbar{
+  width: 80px;
+  border-top: 5px solid white;
+  margin: 0 auto 30px;
+}
+
+.divbarblack{
+  width: 80px;
+  border-top: 5px solid;
+  margin: 0 auto 30px;
+}
+
+footer{
+  padding: 60px 0;
+  font-size: 18px;
+}
